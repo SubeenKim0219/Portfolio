@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subeen Kim</title>
+ 
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="https://kit.fontawesome.com/adaa0bbdef.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+<header>
+  <a href="index.html" class="logo">Welcome!</a>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="project.html">Project</a></li>
+    <li><a href="Resume_Subeen Kim.pdf" download>Resume</a></li>
+    <li><a target="_blank" href="mailto:sabrinakim0219@gmail.com">Contact</a></li>
+    <li><a target="_blank" href="https://github.com/SubeenKim0219"><i class="fa-brands fa-github fa-lg"></i></a></li>
+
+  </ul>
+</header>
+<img class="move" src="./5.png" style="position: absolute; z-index: -5; right: 1000px;"/>
+
+
+<div class="wrapper">
+
+        <div class="container scrollx">
+            <img class="image rellax" data-rellax-horizontal-speed="15" data-rellax-vertical-scroll-axis="x" src="./1.png" />
+            <img class="image-1 rellaxv" data-rellax-speed="3" data-rellax-percentage="2" src="./4.png" />
+            <img class="image-2 rellaxv" data-rellax-speed="7" data-rellax-percentage="1" src="./3.png" />
+
+            <section>
+
+                <span class="sec1 pin"> 
+                  <h1 class="anim rellax"  data-rellax-speed="5" id="about" style="align-items: center;justify-content: center; text-align: center; margin-top: 100px; margin-right: 300px; font-size: 2rem"> 
+                   </h1>
+                   <!--about-->
+                    <h1 class="anim rellax" id="myElement"  data-rellax-speed="5" style="text-align: center; margin-left: 450px; margin-top: 100px; font-size: 2rem; position: absolute; z-index: 4;"> 
+                    </h1>
+                  </span>
+                  
+          
+            </section>
+
+            <section style="align-items: center;justify-content: center; display: flex;">
+              <span>
+
+    <h1 class="rellaxv" id="language"  data-rellax-speed="5"data-rellax-percentage="1.5" style="text-align: center; margin-left: 200px; margin-top: 100px; font-size: 3rem; position: absolute;"> 
+    </h1>
+
+            <div class="col rellaxv" data-rellax-speed="6" data-rellax-percentage="1.2" style=" margin-left: 0px; position: absolute;  margin-top: 200px; text-align: center; z-index: 6;">
+              
+              <div class="wrappers">
+
+             <div class="icon java">
+                <div class="tooltip">JAVA</div>
+                <i class="fa-brands fa-java fa-2xl" style="font-size: 5rem;"></i>
+              </div>
+
+              <div class="icon js">
+                <div class="tooltip">JAVASCRIPT</div>
+              <i class="fa-brands fa-js fa-2xl" style=" font-size: 5rem;"></i>
+            </div>
+
+              <div class="icon html">
+                <div class="tooltip">HTML</div>
+              <i class="fa-brands fa-html5 fa-2xl" style="font-size: 5rem;"></i>
+            </div>
+
+              <div class="icon css">
+                <div class="tooltip">CSS</div>
+              <i class="fa-brands fa-css3-alt fa-2xl" style="font-size: 5rem"></i>
+            </div>
+
+             <div class="icon sql">
+              <div class="tooltip">SQL</div>
+              <i class="fas fa-database fa-2xl" style="font-size: 5rem;"></i>
+            </div>
+            
+
+
+            </div>
+              
+            <h1 style="position: absolute; left: 230px; top: 100px;">
+              <br>
+              
+              <img src="eclipse.svg" alt="eclipse" style="height: 80px; width: 80px;" />
+
+              &nbsp;  &nbsp;
+              <img src="vscode.svg" alt="vscode" style="height: 80px; width: 80px;" />
+              &nbsp; &nbsp;
+              <img src="mysql-official.svg" alt="mysql" style="height: 100px; width: 150px;" />
+              &nbsp; &nbsp;
+              <img src="illustrator.svg" alt="illustrator" style="height: 80px; width: 80px;" />
+              &nbsp; &nbsp;
+              <img src="photoshop.svg" alt="photoshop" style="height: 80px; width: 80px;" />
+            </h1>
+
+
+              <!-- <h1 data-cursor="link" data-name="Java" style="margin-left: 200px; margin-top: 15px; font-size: 2.5rem; color:rgb(32, 32, 32); text-shadow:2px 2px 2px #ffb300;">
+                 Java </h1>
+                 
+                 <h1 data-cursor="link" data-name="JavaScript" style="margin-top: 15px; font-size: 2.5rem; color:rgb(32, 32, 32); text-shadow:2px 2px 2px #ffb300;">
+                    JavaScript &nbsp;  &nbsp;</h1>
+            <h1 data-cursor="link" data-name="HTML" style="margin-top: 15px; font-size: 2.5rem; color:rgb(32, 32, 32); text-shadow:2px 2px 2px #ffb300;">
+        
+                HTML &nbsp; &nbsp; </h1>
+                <h1 data-cursor="link" data-name="CSS" style="margin-top: 15px; font-size: 2.5rem; color:rgb(32, 32, 32); text-shadow:2px 2px 2px #ffb300;">
+        
+                CSS &nbsp; </h1>
+                <h1 data-cursor="link" data-name="SQL" style="margin-top: 15px; font-size: 2.5rem; color:rgb(32, 32, 32); text-shadow:2px 2px 2px #ffb300;">
+        
+                SQL &nbsp;</h1>-
+                <p style="font-size: 1.5rem" data-cursor="subeen">
+             <br>  Eclipse  <br> VS Code  &nbsp; 
+               <br> MySQL  &nbsp; &nbsp; Illustrator  Photoshop </p>
+                -->
+         
+            
+          </span>
+            
+            </section>
+
+           <!-- <section class="sec3 pin"style="align-items: center;justify-content: center; display: flex;">
+                <span class="anim">Advanced</span>
+                <h1 class="anim">Signify Elegance</h1>
+
+                <div class="col anim">
+                    <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit praesent arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis risus amet urna. Urna egestas lorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit praesent arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis risus amet urna. Urna egestas lorem.</p>
+                </div></section>
+
+            
+                <section class="sec4 pin"style="align-items: center;justify-content: center; display: flex;">
+                  <span class="anim">Advanced</span>
+                  <h1 class="anim">Signify Elegance</h1>
+  
+                  <div class="col anim">
+                      <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit praesent arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis risus amet urna. Urna egestas lorem.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Sit praesent arcu leo lectus pellentesque. Ornare elit orci morbi volutpat. Ut fermentum lorem morbi quis risus amet urna. Urna egestas lorem.</p>
+                  </div></section>-->
+        </div>
+    </div>
+
+   
+
+<script>
+//type it
+
+new TypeIt("#myElement", {
+  speed:100,
+  strings: ["I'm Subeen Kim, pursuing a front-end developer.", "As being interested in UI design,", "I hope to UI Interactive designer as well. "],
+
+}).go();
+
+new TypeIt("#language", {
+  speed:100,
+  strings: ["Available Skills and Tools"],
+
+}).go();
+
+
+
+ //scrolling speed
+       new Rellax('.rellax', { horizontal: true })
+       new Rellax('.rellaxv', {vertical: true})
+
+
+
+
+
+
+ 
+     
+
+
+ const container = document.querySelector(".container");
+const sections = gsap.utils.toArray(".container section");
+const texts = gsap.utils.toArray(".anim");
+const mask = document.querySelector(".mask");
+
+let scrollTween = gsap.to(sections, {
+  xPercent: -100 * (sections.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".container",
+    pin: true,
+    scrub: 1,
+    end: "+=3000",
+    //snap: 1 / (sections.length - 1),
+  }
+});
+
+console.log(1 / (sections.length - 1))
+
+
+// whizz around the sections
+sections.forEach((section) => {
+  // grab the scoped text
+  let text = section.querySelectorAll(".anim");
+  
+  // bump out if there's no items to animate
+  if(text.length === 0)  return 
+  
+  // do a little stagger
+  gsap.from(text, {
+    y: -130,
+    opacity: 0,
+    duration: 2,
+    ease: "elastic",
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: section,
+      containerAnimation: scrollTween,
+      start: "left center",
+    }
+  });
+});
+
+</script>
+
+</body>
+</html>
